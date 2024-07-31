@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-column {
+  width: 60%;
+}
+
+.image-placeholder {
+  background-color: #f0f0f0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial {
+  margin-top: 20px;
+}
+
+.right-column {
+  width: 35%;
+}
+
+.contact-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.features {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.feature-number {
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.our-package {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.our-package h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.package-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.package-item .icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.closing-argument {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.closing-argument p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  color: #666;
+}
+
+.cta-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.copyright {
+  color: #666;
+  font-size: 14px;
+  margin-top: 10px;
+}
