@@ -163,3 +163,12 @@ footer {
   font-size: 14px;
   margin-top: 10px;
 }
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.error-input {
+  border: 1px solid red;
+}
